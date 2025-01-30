@@ -6,3 +6,17 @@
    background-color: black;
 }
 
+.row
+{
+   margin-top: 200px;
+   
+}
+
+.card{
+   height: 300px;
+   width: 250px;
+}
+
+.card-img-top{
+   height: 300px;
+}
