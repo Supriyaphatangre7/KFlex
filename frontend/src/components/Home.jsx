@@ -153,164 +153,223 @@ export const Home = () => {
   Latest Release
 </h3> */}
 
-<div className="container text-center mt-6">
-  <div className="row row-cols-1 row-cols-md-4 g-5">
-    <div className="col g-5">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s1.jpg" className="card-img-top" alt="Slide 1"   />
+<div className="container  mt-6">
+  <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Changed to 6 columns and reduced gap */}
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
-          <p className="card-text">
-            Queen Of Tears | 16 episode
-          </p>
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "180px", height: "280px" }}>
         <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-          <p className="card-text">
-          Love Next Door | 16 episode
-          </p>
+          <p className="card-text">Love Next Door | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3"  />
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text">
-          No Gain No Love | 16 episode
-          </p>
+          <p className="card-text">No Gain No Love | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "180px", height: "280px" }}>
         <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
-          <p className="card-text">
-          Queen Of Tears | 16 episode
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
- 
-  <h4 className="underline text-lg font-bold">Trending Shows</h4>
-        {/* <h3 className="inline-block text-lg font-bold border-b-2 border-dashed border-gray-500">
-  Latest Release
-</h3> */}
-
-<div className="container text-center mt-6">
-  <div className="row row-cols-1 row-cols-md-4 g-5">
-    <div className="col g-5">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s1.jpg" className="card-img-top" alt="Slide 1"   />
-        <div className="card-body">
-          <p className="card-text">
-            Queen Of Tears | 16 episode
-          </p>
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "180px", height: "280px" }}>
         <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-          <p className="card-text">
-          Love Next Door | 16 episode
-          </p>
+          <p className="card-text">Love Next Door | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3"  />
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text">
-          No Gain No Love | 16 episode
-          </p>
-        </div>
-      </div>
-    </div>
-    <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
-        <div className="card-body">
-          <p className="card-text">
-          Queen Of Tears | 16 episode
-          </p>
+          <p className="card-text">No Gain No Love | 16 episodes</p>
         </div>
       </div>
     </div>
   </div>
-  </div>
+</div>
 
- 
-  <h4 className="underline text-lg font-bold">Hot Release </h4>
-        {/* <h3 className="inline-block text-lg font-bold border-b-2 border-dashed border-gray-500">
-  Latest Release
-</h3> */}
-
-<div className="container text-center mt-6">
-  <div className="row row-cols-1 row-cols-md-4 g-5">
-    <div className="col g-5">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s1.jpg" className="card-img-top" alt="Slide 1"   />
+<h4 className="underline text-lg font-bold">Trending Shows</h4>
+<div className="container  mt-6">
+  <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Updated for 6 columns */}
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
-          <p className="card-text">
-            Queen Of Tears | 16 episode
-          </p>
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "180px", height: "280px" }}>
         <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-          <p className="card-text">
-          Love Next Door | 16 episode
-          </p>
+          <p className="card-text">Love Next Door | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3"  />
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text">
-          No Gain No Love | 16 episode
-          </p>
+          <p className="card-text">No Gain No Love | 16 episodes</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "180px", height: "280px" }}>
         <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
-          <p className="card-text">
-          Queen Of Tears | 16 episode
-          </p>
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <div className="card-body">
+          <p className="card-text">Love Next Door | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <div className="card-body">
+          <p className="card-text">No Gain No Love | 16 episodes</p>
         </div>
       </div>
     </div>
   </div>
+</div>
+
+<h4 className="underline text-lg font-bold">Hot Release</h4>
+<div className="container  mt-6">
+  <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Updated for 6 columns */}
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
+        <div className="card-body">
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <div className="card-body">
+          <p className="card-text">Love Next Door | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <div className="card-body">
+          <p className="card-text">No Gain No Love | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
+        <div className="card-body">
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <div className="card-body">
+          <p className="card-text">Love Next Door | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <div className="card-body">
+          <p className="card-text">No Gain No Love | 16 episodes</p>
+        </div>
+      </div>
+    </div>
   </div>
-
- 
-
+</div>
 
 
+<h4 className="underline text-lg font-bold">Binge-Worthy shows</h4>
+<div className="container  mt-6">
+  <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Updated for 6 columns */}
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
+        <div className="card-body">
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <div className="card-body">
+          <p className="card-text">Love Next Door | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <div className="card-body">
+          <p className="card-text">No Gain No Love | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
+        <div className="card-body">
+          <p className="card-text">Queen Of Tears | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <div className="card-body">
+          <p className="card-text">Love Next Door | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card" style={{ width: "180px", height: "280px" }}>
+        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <div className="card-body">
+          <p className="card-text">No Gain No Love | 16 episodes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-
-
-
-
-      
     </>
   );
 };
