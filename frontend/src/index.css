@@ -1,23 +1,32 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
-:root{
+body{
    background-color: black;
+   color: white;
 }
 
-.row
-{
-   margin-top: 200px;
-   
+.underline{
+   margin-left: 120px;
+   margin-top: 40px;
 }
+
+
+
 
 .card{
    height: 300px;
    width: 250px;
+   background-color: rgb(18, 39, 18);
+   color: white;
+   
 }
 
 .card-img-top{
    height: 300px;
+}
+
+.release{
+   margin-top: 30px;
 }
 
