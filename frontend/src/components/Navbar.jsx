@@ -1,6 +1,13 @@
 import { FaUserCircle } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 export const Navbar = () => {
+  const dropdown=()=>{
+    <ul>
+      <li>profile</li>
+    </ul>
+  }
+
   return (
     <>
       <nav className="navbar navbar-expand-lg  sticky-top" style={{ backgroundColor:"black"}}>
@@ -20,7 +27,7 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-1 mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
+                <a className="nav-link active text-white" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active text-white" aria-current="page" href="#">Series</a>
@@ -31,43 +38,28 @@ export const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link active text-white" aria-current="page" href="#">Mylist</a>
               </li>
-            </ul>
-            <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form>
 
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <button className="btn btn-outline-success" type="submit" style={{ marginRight: "20px" }}>Register</button>
-              </li>
-              <li className="nav-item">
-                <button className="btn btn-outline-success" type="submit" style={{ marginRight: "10px" }}>Login</button>
-              </li>
-            </ul>
-
-            {/* Profile Icon with Dropdown */}
-            <li className="nav-item dropdown">
               <button
-                className="btn btn-ghost btn-circle dropdown-toggle"
+                className="btn btn-ghost btn-circle dropdown-toggle mt-1"
                 id="profileDropdown"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                style={{ marginRight: "30px" }}
-              >
-                <FaUserCircle style={{ fontSize: "30px", color: "white" }} />
+                style={{ marginRight: "30px" }}>
+                <FaSearch  style={{ fontSize: "20px",color:"white" }} />
               </button>
-              <ul
-                className="dropdown-menu dropdown-menu-end"
-                aria-labelledby="profileDropdown"
-              >
-                <li><a className="dropdown-item" href="#">Profile</a></li>
-                <li><a className="dropdown-item" href="#">Settings</a></li>
-                <li><a className="dropdown-item" href="#">Logout</a></li>
-              </ul>
-            </li>
+              </li>
+
+              <li className="nav-item">
+                <a href="/login"><button className="btn btn-outline-success" type="submit" style={{ marginLeft: "1100px" }}>Login</button></a>
+              </li>
+            </ul>
+    
+            
+
+            </div>
           </div>
-        </div>
+    
       </nav>
     </>
   );
