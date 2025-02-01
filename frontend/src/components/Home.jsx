@@ -159,7 +159,7 @@ export const Home = () => {
       <div className="card" >
         <img src="sq.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
-       
+        <center><h6 className="dname">Squid Game</h6></center>
         </div>
       </div>
     </div>
@@ -167,7 +167,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="mo.jpg" className="card-img-top" alt="Slide 2"  />
         <div className="card-body">
-      
+        <center><h6 className="dname">My Dearest Enemy</h6></center>
         </div>
       </div>
     </div>
@@ -175,7 +175,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="s6.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">Study Group</h6></center>
         </div>
       </div>
     </div>
@@ -183,7 +183,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="q1.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
-          
+        <center><h6 className="dname">Queen Of Tears</h6></center>
         </div>
       </div>
     </div>
@@ -191,7 +191,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="f1.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-        
+        <center><h6 className="dname">Family By Choice</h6></center>
         </div>
       </div>
     </div>
@@ -199,7 +199,7 @@ export const Home = () => {
       <div className="card">
         <img  src="n3.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">Love Next Door</h6></center>
         </div>
       </div>
     </div>
@@ -213,7 +213,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="lo1.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
-         
+        <center><h6 className="dname">Lovely Ruuner</h6></center>
         </div>
       </div>
     </div>
@@ -221,7 +221,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="v1.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-    
+        <center><h6 className="dname">Vincenzo</h6></center>
         </div>
       </div>
     </div>
@@ -229,7 +229,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="my.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">My Demon</h6></center>
         </div>
       </div>
     </div>
@@ -237,7 +237,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="hi.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
-       
+        <center><h6 className="dname">Hidden Love</h6></center>
         </div>
       </div>
     </div>
@@ -245,7 +245,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="ki.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-        
+        <center><h6 className="dname">King In The Land</h6></center>
         </div>
       </div>
     </div>
@@ -253,7 +253,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="no.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          
+        <center><h6 className="dname">No Gain No Love</h6></center>
         </div>
       </div>
     </div>
@@ -267,7 +267,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="bu.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
-        
+        <center><h6 className="dname">Bussiness Proposal</h6></center>
         </div>
       </div>
     </div>
@@ -275,7 +275,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="dr.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-     
+        <center><h6 className="dname">Doctor Slump</h6></center>
         </div>
       </div>
     </div>
@@ -283,7 +283,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="all.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">All Of Us Dead</h6></center>
         </div>
       </div>
     </div>
@@ -291,7 +291,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="di.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
-      
+        <center><h6 className="dname">Destiny With You</h6></center>
         </div>
       </div>
     </div>
@@ -299,7 +299,7 @@ export const Home = () => {
       <div className="card">
         <img  src="ho.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-         
+        <center><h6 className="dname">Hometown Cha Cha</h6></center>
         </div>
       </div>
     </div>
@@ -307,7 +307,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="never.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">Neverthless</h6></center>
         </div>
       </div>
     </div>
@@ -322,7 +322,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="ti.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
-        
+        <center><h6 className="dname">A Time Called You</h6></center>
         </div>
       </div>
     </div>
@@ -330,7 +330,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="we.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-       
+        <center><h6 className="dname">Welcome To Samdal-ri</h6></center>
         </div>
       </div>
     </div>
@@ -338,7 +338,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="touch.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">Touch Your Heart</h6></center>
         </div>
       </div>
     </div>
@@ -346,7 +346,7 @@ export const Home = () => {
       <div className="card">
         <img  src="stro.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
-        
+        <center><h6 className="dname">Strong Women Do Bong Soon</h6></center>
         </div>
       </div>
     </div>
@@ -354,7 +354,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="run.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
-         
+        <center><h6 className="dname">Run On</h6></center>
         </div>
       </div>
     </div>
@@ -362,7 +362,7 @@ export const Home = () => {
       <div className="card" >
         <img  src="tale.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
-          <p className="card-text"> </p>
+        <center><h6 className="dname">Tale Of Nokdu</h6></center>
         </div>
       </div>
     </div>

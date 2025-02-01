@@ -11,22 +11,24 @@ body{
    margin-top: 40px;
 }
 
-.card{
-   background-color: rgb(8, 8, 8);
+.card {
+   background-color: black;
    color: white;
-   height: 280px;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
 }
 
-
-
-.release{
-   margin-top: 30px;
+.card-img-top {
+   height: 300px;
+   width: 100%;
+   object-fit: cover;
 }
 
-#cards{
-   height: 310px;
+.card-body {
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-.card-body{
-   padding-top: 2px;
-}
