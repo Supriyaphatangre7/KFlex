@@ -11,15 +11,10 @@ body{
    margin-top: 40px;
 }
 
-
-
-
 .card{
-   height: 300px;
-   width: 250px;
-   background-color: rgb(18, 39, 18);
+   background-color: rgb(8, 8, 8);
    color: white;
-   
+   height: 320px;
 }
 
 .card-img-top{
@@ -30,4 +25,10 @@ body{
    margin-top: 30px;
 }
 
+#cards{
+   height: 310px;
+}
 
+.card-body{
+   padding-top: 2px;
+}
