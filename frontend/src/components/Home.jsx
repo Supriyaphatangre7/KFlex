@@ -157,7 +157,7 @@ export const Home = () => {
   <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Changed to 6 columns and reduced gap */}
     <div className="col">
       <div className="card" >
-        <img src="lo1.jpg" className="card-img-top" alt="Slide 1" />
+        <img src="sq.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
        
         </div>
@@ -165,7 +165,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img id="cards" src="n2.jpg" className="card-img-top" alt="Slide 2"  />
+        <img  src="mo.jpg" className="card-img-top" alt="Slide 2"  />
         <div className="card-body">
       
         </div>
@@ -173,7 +173,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="q1.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="s6.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
@@ -181,7 +181,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s6.jpg" className="card-img-top" alt="Slide 4" />
+        <img  src="q1.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
           
         </div>
@@ -189,7 +189,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="f1.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="f1.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
         
         </div>
@@ -197,7 +197,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card">
-        <img src="no.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="n3.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
@@ -211,7 +211,7 @@ export const Home = () => {
   <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Updated for 6 columns */}
     <div className="col">
       <div className="card" >
-        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
+        <img  src="lo1.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
          
         </div>
@@ -219,7 +219,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="v1.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
     
         </div>
@@ -227,7 +227,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="my.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
@@ -235,7 +235,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
+        <img  src="hi.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
        
         </div>
@@ -243,7 +243,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="ki.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
         
         </div>
@@ -251,7 +251,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="no.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           
         </div>
@@ -265,7 +265,7 @@ export const Home = () => {
   <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Updated for 6 columns */}
     <div className="col">
       <div className="card" >
-        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
+        <img  src="bu.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
         
         </div>
@@ -273,7 +273,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="dr.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
      
         </div>
@@ -281,7 +281,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="all.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
@@ -289,7 +289,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
+        <img  src="di.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
       
         </div>
@@ -297,7 +297,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card">
-        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="ho.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
          
         </div>
@@ -305,7 +305,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="never.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
@@ -320,7 +320,7 @@ export const Home = () => {
   <div className="row row-cols-1 row-cols-md-6 g-3"> {/* Updated for 6 columns */}
     <div className="col">
       <div className="card" >
-        <img src="s1.jpg" className="card-img-top" alt="Slide 1" />
+        <img  src="ti.jpg" className="card-img-top" alt="Slide 1" />
         <div className="card-body">
         
         </div>
@@ -328,7 +328,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="we.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
        
         </div>
@@ -336,7 +336,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="touch.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
@@ -344,7 +344,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card">
-        <img src="s1.jpg" className="card-img-top" alt="Slide 4" />
+        <img  src="stro.jpg" className="card-img-top" alt="Slide 4" />
         <div className="card-body">
         
         </div>
@@ -352,7 +352,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="l3.jpg" className="card-img-top" alt="Slide 2" />
+        <img  src="run.jpg" className="card-img-top" alt="Slide 2" />
         <div className="card-body">
          
         </div>
@@ -360,7 +360,7 @@ export const Home = () => {
     </div>
     <div className="col">
       <div className="card" >
-        <img src="s7.jpg" className="card-img-top" alt="Slide 3" />
+        <img  src="tale.jpg" className="card-img-top" alt="Slide 3" />
         <div className="card-body">
           <p className="card-text"> </p>
         </div>
