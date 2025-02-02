@@ -38,6 +38,9 @@ export const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link active text-white" aria-current="page" href="#">Mylist</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link active text-white" aria-current="page" href="/slider">Slider</a>
+              </li>
 
               <li className="nav-item">
               <button

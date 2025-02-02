@@ -4,6 +4,8 @@ import { Navbar } from "./components/Navbar"
 import { Login } from "./components/Login"
 import { Register } from "./components/Register"
 
+import { Slide } from "./components/Slide"
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/register" element={<Register/>}/>
+          <Route path="/slider" element={<Slide/>}/>
        
 
         </Routes>
